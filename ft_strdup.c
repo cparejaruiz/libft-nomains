@@ -6,11 +6,23 @@
 /*   By: carmen <carmen@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 10:30:40 by carmen            #+#    #+#             */
-/*   Updated: 2024/10/22 22:36:04 by carmen           ###   ########.fr       */
+/*   Updated: 2024/11/05 20:36:22 by carmen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * The `ft_strdup` function allocates sufficient 
+ * memory for a copy of the string `str`,
+ * does the copy, and returns a pointer to it.
+ *
+ * The pointer may subsequently be used as an argument to the function `free`.
+ *
+ * @param str The string to be copied.
+ * @return A pointer to the newly allocated string, 
+ * or `NULL` if the allocation failed.
+ */
 
 char	*ft_strdup(char const *str)
 {

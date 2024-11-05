@@ -6,11 +6,26 @@
 /*   By: carmen <carmen@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 09:45:55 by carmen            #+#    #+#             */
-/*   Updated: 2024/10/23 10:05:28 by carmen           ###   ########.fr       */
+/*   Updated: 2024/11/05 20:51:38 by carmen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Splits a string into an array of strings using the specified delimiter.
+ *
+ * The `ft_split` function splits the string 
+ * `s` into an array of strings using the
+ * specified delimiter `c`. The function returns an array of strings obtained by
+ * splitting `s` using the character `c` as a delimiter. The array must be ended
+ * by a `NULL` pointer.
+ *
+ * @param s The string to split.
+ * @param c The delimiter character.
+ * @return An array of strings obtained by splitting 
+ * `s` using the character `c` as a delimiter.
+ */
 
 static int	count_words(const char *str, char c)
 {

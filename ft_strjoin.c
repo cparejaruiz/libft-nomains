@@ -6,11 +6,20 @@
 /*   By: carmen <carmen@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 23:21:59 by carmen            #+#    #+#             */
-/*   Updated: 2024/10/22 22:36:12 by carmen           ###   ########.fr       */
+/*   Updated: 2024/11/05 20:23:41 by carmen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Allocates and returns a new string, which is the result of the concatenation
+ * of `s1` and `s2`.
+ *
+ * @param s1 The prefix string.
+ * @param s2 The suffix string.
+ * @return The new string. NULL if the allocation fails.
+ */
 
 static char	*ft_aux(char const *s1, char const *s2, char *str)
 {
